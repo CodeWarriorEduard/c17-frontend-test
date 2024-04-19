@@ -1,0 +1,61 @@
+
+/* Wave styling*/
+
+.wave{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+
+.wave svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 120px;
+    transform: rotateY(180deg);
+}
+
+.wave .shape-fill {
+    fill: #001C30;
+}
+
+
+/*End wave styling*/
+
+
+.hero-container{
+    width: 100%;
+    height: 100vh;
+    background-image: url("/src/assets/herob2.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.hero-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 80%;
+    font-family: "Poppins", sans-serif;
+    font-size: 38px;
+}
+
+.hero-text > h2{
+    max-width: 860px;
+    
+}
+
+#hero-join-btn{
+    margin-top: 20px;
+    width: 244px;
+    height: 62px;
+    border: none;
+    border-radius: 10px;
+    font-size: 1.4rem;
+    background-color: #176B87;
+    color: white;
+}
